@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>摆轮</item>
+        <item>摆轮+圆环</item>
+        <item>摆轮+飞机模型</item>
+        <item>摆轮+两圆柱</item>
+    </string-array>
+</resources>

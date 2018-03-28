@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">转动惯量网络版</string>
+    <string name="experiment_showtext">实验：\n转动惯量测试</string>
+    <string name="experiment_learning">实验原理学习</string>
+    <string name="returnback">返回</string>
+    <string name="checkandupload">数据检查无误\n确定上传</string>
+    <string name="teacherhelp">老师正在检查数据，请稍后</string>
+    <string name="makesure">确认</string>
+    <string name="welcome_msg">欢迎使用实验课堂管理系统\n实验名称：转动惯量测试\n请输入实验组号、学号、姓名</string>
+    <string name="group_num">组号：</string>
+    <string name="xuehao_num">学号：</string>
+    <string name="pleaseinputgroupnum">请输入组号</string>
+    <string name="pleaseinputxuehaonum">请输入学号</string>
+    <string name="pleaseinputname">请输入姓名</string>
+    <string name="name">姓名：</string>
+    <string name="learningbook">学习手册</string>
+    <string name="learningvideo">学习视频</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="replay">重播</string>
+    <string name="helpbyteacher">求助老师</string>
+
+    <string name="checking">老师正在检查数据，请稍后...</string>
+    <string name="checkedbad">数据错误，请检查数据</string>
+    <string name="checkedgood">您已完成实验，请将仪器整理整齐。</string>
+    <string name="theory_button2">学习手册</string>
+    <string name="theory_button3">学习视频</string>
+
+    <string name="video_play">播放</string>
+    <string name="video_pause">暂停</string>
+    <string name="video_replay">重播</string>
+
+    <string name="measure1_TextView1">选择测量物体</string>
+    <string name="measure1_button_s1">摆轮</string>
+    <string name="measure1_button_s2">摆轮+圆环</string>
+    <string name="measure1_button_s3">摆轮+飞机模型</string>
+    <string name="measure1_button_s4">摆轮+两圆柱</string>
+    <string name="measure1_TextView2">周期数设置:</string>
+    <string name="measure1_editText2">20</string>
+    <string name="measure1_TextView3">周期次数:</string>
+    <string name="measure1_TextView4">计时:</string>
+    <string name="measure1_button1">开始计时</string>
+    <string name="measure1_button2">查询数据</string>
+    <string name="list_button2">实验测量</string>
+    <string name="list_button1">实验原理学习</string>
+    <string name="measure3_TextView0">物体</string>
+    <string name="measure3_TextView1">  摆轮（s）  </string>
+    <string name="measure3_TextView2">摆轮 + 圆环（s）</string>
+    <string name="measure3_TextView3">摆轮 + 飞机（s）</string>
+    <string name="measure3_TextView4">摆轮 +两圆柱（s）</string>
+    <string name="measure3_TextView5">需要刪除某一物体请在列尾点删除</string>
+    <string name="measure3_help">求助老师</string>
+    <string name="measure3_updata">数据检查无误确定上传</string>
+    <string name="button_next">请输入数据</string>
+
+    <string name="measure_TextView0">次序</string>
+    <string name="measure_TextView1">1</string>
+    <string name="measure_TextView2">2</string>
+    <string name="measure_TextView3">3</string>
+    <string name="measure_TextView4">4</string>
+    <string name="measure_TextView5">5</string>
+    <string name="measure_TextView6">6</string>
+
+    <string name="measure_TextView71">圆柱 直径d/cm</string>
+    <string name="measure_TextView72">圆柱 距离x/cm</string>
+
+    <string name="measure_TextView81">圆环 d内/cm</string>
+    <string name="measure_TextView82">圆柱 d外/cm</string>
+
+    <string name="measure_TextView91">质量 圆环m1/g</string>
+    <string name="measure_TextView92">圆柱 圆柱m2/g</string>
+
+    <string name="measure_EditView">****</string>
+
+
+    <string name="buttonBac">退出</string>
+    <string name="buttonRtn">返回</string>
+    <string name="buttonSure">确定</string>
+
+</resources>

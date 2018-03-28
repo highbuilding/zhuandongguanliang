@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_measure_3_"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30px"
+    android:paddingTop="20px"
+    android:paddingRight="10px"
+    android:keepScreenOn="true"
+    android:background="@drawable/background1"
+    android:stretchColumns="*"
+    >
+    <ScrollView
+        android:layout_width="825dp"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:id="@+id/tablelayout_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:id="@+id/tableRow00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0C9A73"
+                >
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView0"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView1"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView2"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView3"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView5"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView6"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0C9A73"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView71"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/tableData00"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="请输入"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData01"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData02"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData03"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tableData04"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tableData05"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0C9A73"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView72"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/tableData06"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData07"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData08"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData09"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:inputType="number"
+
+                    android:hint="请输入"
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tableData10"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData11"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0C9A73"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView81"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/tableData12"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData13"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData14"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData15"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tableData16"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData17"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow40"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0C9A73"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView82"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/tableData18"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData19"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData20"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData21"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tableData22"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData23"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow50"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0C9A73"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView91"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/tableData24"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData25"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData26"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData27"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tableData28"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData29"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow60"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0C9A73"
+                >
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="@string/measure_TextView92"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/tableData30"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData31"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData32"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData33"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/tableData34"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tableData35"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:hint="请输入数字"
+                    android:inputType="number"
+
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button1"
+
+        android:text="@string/measure3_updata"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button_r"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button1"
+
+        android:text="@string/returnback"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_alignTop="@id/button_upload"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
+
+

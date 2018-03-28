@@ -1,0 +1,4 @@
+D:\temp\AndroidStudioProjects\intphyexpplatform2\Intphyexpplatform\signapk-files>java -jar ./signapk.jar s5p6818-platform-key/platform.x509.pem s5p6818-platform-key/platform.pk8 ./zhuandongForOnline.apk zhuandongForOnline_signed.apk
+k
+
+D:\temp\AndroidStudioProjects\intphyexpplatform2\Intphyexpplatform\signapk-files>adb install zhuandongForOnline_signed.apk
