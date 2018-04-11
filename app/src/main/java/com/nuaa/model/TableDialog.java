@@ -13,20 +13,16 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-import com.nuaa.utils.MakeUrl;
-import com.nuaa.zhuandongforonline.Measure_1_Activity;
+import com.nuaa.zhuandongforonline.MeasureActivity;
 import com.nuaa.zhuandongforonline.R;
 
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 
 
 /**
@@ -75,7 +71,7 @@ private void delListEle(int id){
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_measure_3_);
+        setContentView(R.layout.activity_measure_2);
 
         Button BtnReturn = (Button) findViewById(R.id.button_r);
         BtnReturn.setOnClickListener(new View.OnClickListener(){

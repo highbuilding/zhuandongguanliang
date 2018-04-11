@@ -34,7 +34,7 @@ public class ListActivity extends BaseActivity {
         Button Btn2 = (Button)findViewById(R.id.button2);//获取按钮资源
         Btn2.setOnClickListener(new Button.OnClickListener(){//创建监听
             public void onClick(View v) {
-                Intent intent=new Intent(ListActivity.this,Measure_1_Activity.class);
+                Intent intent=new Intent(ListActivity.this,MeasureActivity.class);
                 //用Bundle携带数据
                 Bundle bundle=new Bundle();
                 //传递name参数为tinyphp

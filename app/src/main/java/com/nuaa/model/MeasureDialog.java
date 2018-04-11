@@ -11,18 +11,16 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewDebug;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.nuaa.pojo.JsonUtil;
 import com.nuaa.pojo.ResponsePojo;
 import com.nuaa.utils.HttpUtil;
 import com.nuaa.utils.MakeUrl;
-import com.nuaa.zhuandongforonline.Measure_1_Activity;
+import com.nuaa.zhuandongforonline.MeasureActivity;
 import com.nuaa.zhuandongforonline.R;
 
 import java.util.HashMap;
@@ -61,7 +59,7 @@ public class MeasureDialog extends Dialog {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_measure);
+        setContentView(R.layout.activity_measure_3);
         Button BtnReturn = (Button) findViewById(R.id.button_r);
         BtnReturn.setOnClickListener(new View.OnClickListener(){
             @Override

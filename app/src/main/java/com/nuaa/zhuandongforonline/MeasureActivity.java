@@ -31,7 +31,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 
-public class Measure_1_Activity extends BaseActivity {
+public class MeasureActivity extends BaseActivity {
     public String group_num;
     public String stu_num;
     private List<PeriodTime> list_data;
@@ -43,7 +43,7 @@ public class Measure_1_Activity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_measure_1_);
+        setContentView(R.layout.activity_measure_1);
         //新页面接收数据
         Bundle bundle = this.getIntent().getExtras();
         //接收name值
@@ -58,7 +58,6 @@ public class Measure_1_Activity extends BaseActivity {
         ToggleButton mTogBtn1 = (ToggleButton) findViewById(R.id.button_s1); // 获取到控件
         mTogBtn1.setChecked(true);
         mTogBtn1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-
             @Override
             public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
                 // TODO Auto-generated method stub
@@ -146,20 +145,19 @@ public class Measure_1_Activity extends BaseActivity {
             }
         });// 添加监听事件
 
-        Button btn_checkdat = (Button) findViewById(R.id.button2);//获取按钮资源
+        Button btn_checkdat = (Button) findViewById(R.id.button2);//查看保存数据的按钮
         btn_checkdat.setOnClickListener(new Button.OnClickListener() {//创建监听
             public void onClick(View v) {
                 if(list_data.size()>0) {
                     for(PeriodTime pt:list_data){
                         Log.i("list_data",pt.toString());
                     }
-                    TableDialog dialog = new TableDialog(Measure_1_Activity.this, list_data,group_num);
-                    //dialog.setContentView(R.layout.activity_measure_3_);
+                    TableDialog dialog = new TableDialog(MeasureActivity.this, list_data,group_num);
                     dialog.show();
                 }
                 else {
                     // 创建退出对话框
-                    AlertDialog wrong_1 = new AlertDialog.Builder(Measure_1_Activity.this).create();
+                    AlertDialog wrong_1 = new AlertDialog.Builder(MeasureActivity.this).create();
                     // 设置对话框标题
                     wrong_1.setTitle("系统警告");
                     // 设置对话框消息
@@ -280,7 +278,7 @@ public class Measure_1_Activity extends BaseActivity {
                                 timer.cancel();
                                 task.cancel();
                                 // 创建退出对话框
-                                AlertDialog isExit = new AlertDialog.Builder(Measure_1_Activity.this).create();
+                                AlertDialog isExit = new AlertDialog.Builder(MeasureActivity.this).create();
                                 // 设置对话框标题
                                 isExit.setTitle("系统提示");
                                 // 设置对话框消息
@@ -321,9 +319,12 @@ public class Measure_1_Activity extends BaseActivity {
                     obj.setCount(obj.getId2Count(cur_selected)+1);
                     obj.setId2Count(cur_selected,obj.getId2Count(cur_selected)+1);
                     list_data.add(obj);
+                    dialog.dismiss();
                     break;
                 case AlertDialog.BUTTON_NEGATIVE:// "取消"第二个按钮取消对话框
                     Log.i("serial","no save data");
+                    dialog.dismiss();
+
                     break;
                 default:
                     break;

@@ -19,7 +19,7 @@
             android:name=".VideoActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Measure_1_Activity"
+            android:name=".MeasureActivity"
             android:screenOrientation="landscape" />
         <activity android:name=".FileSelectActivity" />
         <activity android:name=".StartActivity"
